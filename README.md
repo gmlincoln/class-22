@@ -129,7 +129,9 @@ print(b)     # 20
 print(rest)  # [30, 40, 50]
 
 
-```
+
+
+
 ### 📍 7. Tuple vs List (Quick Comparison) 
 
 | Feature    | Tuple      | List         |
@@ -175,4 +177,5 @@ print(mul_result)  # 50
   
 #### ✔ Advanced
 - Write a function that returns (min_value, max_value) without using min() or max().  
-- Store multiple student records using a list of tuples and print only the names.
+- Store multiple student records using a list of tuples and print only the names.  
+- Modify the tuple value using index number [you can search it]
