@@ -518,13 +518,12 @@ students = {
         "name": "Fairooz",
          "age": 21
     },
-    print(students["student1"]["name"])
 
 }
 ```
-### 📍 7. Dictionary Use Cases
 #####  Output
 ```bash
+    
     #Tamim
 ```
 ### 📍 7. Dictionary Use Cases
