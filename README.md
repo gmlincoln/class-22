@@ -352,3 +352,26 @@ print(a.difference(b))    # {1, 2}
 #### ✔ Advanced
 - Find items present in one set but not in another using symmetric_difference().
 - Copy a set and modify the copy without changing the original.
+
+
+
+# 📘  Dictionary 
+
+## 🧠 What is a Dictionary?
+A **dictionary** in Python is a collection of data stored in **key–value pairs**.
+
+- **Ordered** (Python 3.7+)
+- **Mutable** (can change items)
+- **No duplicate keys**
+- Values can be any data type
+
+Dictionaries are written using **curly braces `{ }`**.
+
+### Example
+```python
+student = {
+    "name": "Rodri",
+    "age": 22,
+    "city": "Dhaka"
+}
+```
