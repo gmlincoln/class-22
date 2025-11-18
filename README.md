@@ -523,8 +523,9 @@ students = {
 ```
 #####  Output
 ```bash
-    
+
     #Tamim
+
 ```
 ### 📍 7. Dictionary Use Cases
 #### ✔ 1. Storing real-world structured data
