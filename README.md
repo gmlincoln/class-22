@@ -425,7 +425,37 @@ student["cgpa"] = 3.92
 student["name"] = "Tamim"
 
 ```
-### 📍 3. Removing Items
+### 📍 update() Items
+#### 📍 Updating Existing Keys
+- If a key already exists, update() overwrites the value.
+##### Syntax 
+```bash
+    dictionary.update({key: value})
+
+```
+##### Code
+```python
+student = {"name": "Kafi", "age": 22}
+
+student.update({"age": 23})
+
+print(student)
+# {'name': 'Kafi', 'age': 23}
+
+
+```
+
+#### If the key does not exist, update() adds it
+```python
+student = {
+    "name": "Shuvo",
+    "age": 22, 
+    "city": "Dhaka"
+    }
+student.update({"cgpa": 3.90})
+
+```
+### 📍 Removing Items
 ####
 ```python
 student = {
