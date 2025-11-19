@@ -456,7 +456,7 @@ student.update({"cgpa": 3.90})
 
 ```
 ### 📍 Removing Items
-####
+#### Code
 ```python
 student = {
     "name": "Shuvo",
